@@ -1,0 +1,15 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "2hO-fw-J2G"; */
+"2hO-fw-J2G.title" = "Item";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "4K0-QO-kmb"; */
+"4K0-QO-kmb.text" = "Value";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ADh-On-M9I"; */
+"ADh-On-M9I.text" = "Label";
+
+/* Class = "UILabel"; text = "Serial"; ObjectID = "Fiw-rB-1Rg"; */
+"Fiw-rB-1Rg.text" = "Serial";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "SKj-vV-5BL"; */
+"SKj-vV-5BL.text" = "Name";
