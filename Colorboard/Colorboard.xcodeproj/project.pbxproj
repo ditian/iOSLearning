@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3336086E1D30275900B1834F /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3336086D1D30275900B1834F /* Colorboard.storyboard */; };
 		335D4B471D3018040055D496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D4B461D3018040055D496 /* main.m */; };
 		335D4B4A1D3018040055D496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D4B491D3018040055D496 /* AppDelegate.m */; };
 		335D4B4C1D3018040055D496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335D4B4B1D3018040055D496 /* Assets.xcassets */; };
-		335D4B4F1D3018040055D496 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335D4B4D1D3018040055D496 /* Colorboard.storyboard */; };
 		335D4B5A1D3018040055D496 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D4B591D3018040055D496 /* ColorboardTests.m */; };
 		335D4B651D3018040055D496 /* ColorboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D4B641D3018040055D496 /* ColorboardUITests.m */; };
 /* End PBXBuildFile section */
@@ -33,12 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3336086D1D30275900B1834F /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
 		335D4B421D3018040055D496 /* Colorboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335D4B461D3018040055D496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		335D4B481D3018040055D496 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		335D4B491D3018040055D496 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		335D4B4B1D3018040055D496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		335D4B4E1D3018040055D496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Colorboard.storyboard; sourceTree = "<group>"; };
 		335D4B501D3018040055D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335D4B551D3018040055D496 /* ColorboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		335D4B591D3018040055D496 /* ColorboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardTests.m; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 				335D4B481D3018040055D496 /* AppDelegate.h */,
 				335D4B491D3018040055D496 /* AppDelegate.m */,
 				335D4B4B1D3018040055D496 /* Assets.xcassets */,
-				335D4B4D1D3018040055D496 /* Colorboard.storyboard */,
 				335D4B501D3018040055D496 /* Info.plist */,
 				335D4B451D3018040055D496 /* Supporting Files */,
+				3336086D1D30275900B1834F /* Colorboard.storyboard */,
 			);
 			path = Colorboard;
 			sourceTree = "<group>";
@@ -236,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				335D4B4C1D3018040055D496 /* Assets.xcassets in Resources */,
-				335D4B4F1D3018040055D496 /* Colorboard.storyboard in Resources */,
+				3336086E1D30275900B1834F /* Colorboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,17 +296,6 @@
 			targetProxy = 335D4B611D3018040055D496 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		335D4B4D1D3018040055D496 /* Colorboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				335D4B4E1D3018040055D496 /* Base */,
-			);
-			name = Colorboard.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		335D4B671D3018040055D496 /* Debug */ = {
@@ -478,6 +467,7 @@
 				335D4B6B1D3018040055D496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		335D4B6C1D3018040055D496 /* Build configuration list for PBXNativeTarget "ColorboardTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +476,7 @@
 				335D4B6E1D3018040055D496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		335D4B6F1D3018040055D496 /* Build configuration list for PBXNativeTarget "ColorboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +485,7 @@
 				335D4B711D3018040055D496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
