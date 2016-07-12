@@ -14,6 +14,8 @@
 		335D4B5A1D3018040055D496 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D4B591D3018040055D496 /* ColorboardTests.m */; };
 		335D4B651D3018040055D496 /* ColorboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335D4B641D3018040055D496 /* ColorboardUITests.m */; };
 		33DBB3C01D344D9300ABCAB7 /* BNRColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DBB3BF1D344D9300ABCAB7 /* BNRColorViewController.m */; };
+		33DBB3C31D345B9600ABCAB7 /* BNRPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DBB3C21D345B9600ABCAB7 /* BNRPaletteViewController.m */; };
+		33DBB3C61D345C9B00ABCAB7 /* BNRColorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DBB3C51D345C9B00ABCAB7 /* BNRColorDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		335D4B661D3018040055D496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33DBB3BE1D344D9300ABCAB7 /* BNRColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRColorViewController.h; sourceTree = "<group>"; };
 		33DBB3BF1D344D9300ABCAB7 /* BNRColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRColorViewController.m; sourceTree = "<group>"; };
+		33DBB3C11D345B9600ABCAB7 /* BNRPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPaletteViewController.h; sourceTree = "<group>"; };
+		33DBB3C21D345B9600ABCAB7 /* BNRPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPaletteViewController.m; sourceTree = "<group>"; };
+		33DBB3C41D345C9B00ABCAB7 /* BNRColorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRColorDescription.h; sourceTree = "<group>"; };
+		33DBB3C51D345C9B00ABCAB7 /* BNRColorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRColorDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 				3336086D1D30275900B1834F /* Colorboard.storyboard */,
 				33DBB3BE1D344D9300ABCAB7 /* BNRColorViewController.h */,
 				33DBB3BF1D344D9300ABCAB7 /* BNRColorViewController.m */,
+				33DBB3C11D345B9600ABCAB7 /* BNRPaletteViewController.h */,
+				33DBB3C21D345B9600ABCAB7 /* BNRPaletteViewController.m */,
+				33DBB3C41D345C9B00ABCAB7 /* BNRColorDescription.h */,
+				33DBB3C51D345C9B00ABCAB7 /* BNRColorDescription.m */,
 			);
 			path = Colorboard;
 			sourceTree = "<group>";
@@ -267,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				335D4B4A1D3018040055D496 /* AppDelegate.m in Sources */,
+				33DBB3C31D345B9600ABCAB7 /* BNRPaletteViewController.m in Sources */,
+				33DBB3C61D345C9B00ABCAB7 /* BNRColorDescription.m in Sources */,
 				335D4B471D3018040055D496 /* main.m in Sources */,
 				33DBB3C01D344D9300ABCAB7 /* BNRColorViewController.m in Sources */,
 			);
