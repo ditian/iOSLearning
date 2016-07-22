@@ -36,6 +36,8 @@
     [flowLayout setMinimumLineSpacing:0.0f];
     [flowLayout setMinimumInteritemSpacing:0.0f];
     
+    self.collectionView.frame = CGRectMake(0, 200, 414, 160);
+    
     [self.collectionView setCollectionViewLayout:flowLayout];
     
     [self.collectionView setShowsVerticalScrollIndicator:NO];
